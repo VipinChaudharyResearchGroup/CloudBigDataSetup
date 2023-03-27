@@ -1,0 +1,2 @@
+Spark Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/mohsen/apps/spark-3.3.2-bin-hadoop3/conf/:/home/mohsen/apps/spark-3.3.2-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master
+ 
