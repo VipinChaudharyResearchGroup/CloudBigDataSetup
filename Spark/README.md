@@ -1,5 +1,9 @@
 # Spark
 
+Spark is a fast and general engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python, and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Spark Streaming.
+
+Traditionally for using MapReduce, we need to write a lot of code to do the data processing. We could do that with Hadoop and writing scripts in Scala, but with 
+spark, we can do it in a much easier way.
 
 ## Cluster Mode Overview
 
