@@ -1,3 +1,19 @@
+# HBase
+
+HBase is a distributed, scalable, open-source, non-relational, big data sore, written in Java, based on Google’s [BigTable](https://cloud.google.com/bigtable/docs/hbase-bigtable).
+It can be run on top of HDFS and Hadoop, or on top of other file systems like Amazon S3.
+It is a column-oriented database management system (DBMS).
+More information about HBase can be found [here](https://hbase.apache.org/book.html#_reference).
+
+Thanks to [Apache Thrift](https://hbase.apache.org/book.html#_thrift), HBase can be accessed from a client that is not written in Java, like Python.
+
+
+HBase integrations
+- Apache Spark, we can use it alongside Apache Spark to build a big data pipeline.
+- Apache Hive, we can use HBase and Hive,
+    - to query HBase tables.
+    - to query data stored in HDFS.
+
 # HBase Setup
 
 Create a VM with Debian 11 and install HBase on it.
@@ -141,3 +157,6 @@ For more information about Thrift, see [here](https://hbase.apache.org/book.html
 
 
 
+# Google Colab Notebook
+
+https://colab.research.google.com/drive/1n7nPbuGqCTZXvsI7kcHzPt0ELoPikzKU#scrollTo=ARJqJFs6gcNn
